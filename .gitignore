@@ -1,0 +1,14 @@
+# Ignore all folders in root
+/Assessments/
+/AssociatedInstances/
+/Baselines/
+/Datasets/
+/EvalTree/
+/utils/
+/venv/
+/new_venv/
+
+# Ignore environment files
+.env
+
+.env
