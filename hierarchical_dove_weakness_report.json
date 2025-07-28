@@ -1,0 +1,41 @@
+{
+  "overall_statistics": {
+    "total_questions": 5670,
+    "mean_dove_score": 0.5771280864197531,
+    "total_categories": 4,
+    "total_subjects": 58
+  },
+  "category_analysis": {
+    "STEM": {
+      "mean_score": 0.5326437831927523,
+      "weakness_level": "Moderate",
+      "subject_count": 19,
+      "question_count": 3201
+    },
+    "Humanities": {
+      "mean_score": 0.6675631431244153,
+      "weakness_level": "Moderate",
+      "subject_count": 11,
+      "question_count": 1069
+    },
+    "Social Sciences": {
+      "mean_score": 0.5639926666666667,
+      "weakness_level": "Moderate",
+      "subject_count": 15,
+      "question_count": 750
+    },
+    "Professional": {
+      "mean_score": 0.6626215384615385,
+      "weakness_level": "Moderate",
+      "subject_count": 13,
+      "question_count": 650
+    }
+  },
+  "critical_subjects": [],
+  "recommendations": [
+    "Focus on STEM category (lowest score: 0.533)",
+    "Target 0 critical subjects for question generation",
+    "Prioritize subjects with both low scores and high question counts",
+    "Consider robustness training for input perturbation sensitivity"
+  ]
+}
