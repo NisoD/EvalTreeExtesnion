@@ -1,0 +1,1322 @@
+{
+  "0.3": [
+    {
+      "path": "root_subtree_6_subtree_0_subtree_5_subtree_1",
+      "size": 21,
+      "mean_score": 0.2225238095238095,
+      "confidence_interval": [
+        0.14678179750151646,
+        0.2982658215461026
+      ],
+      "upper_bound": 0.2982658215461026
+    }
+  ],
+  "0.4": [
+    {
+      "path": "root_subtree_6_subtree_0_subtree_5_subtree_1",
+      "size": 21,
+      "mean_score": 0.2225238095238095,
+      "confidence_interval": [
+        0.14678179750151646,
+        0.2982658215461026
+      ],
+      "upper_bound": 0.2982658215461026
+    },
+    {
+      "path": "root_subtree_7_subtree_0_subtree_0_subtree_3_subtree_1_subtree_1",
+      "size": 24,
+      "mean_score": 0.24220833333333336,
+      "confidence_interval": [
+        0.1772751179638663,
+        0.3071415487028004
+      ],
+      "upper_bound": 0.3071415487028004
+    },
+    {
+      "path": "root_subtree_9_subtree_0_subtree_1",
+      "size": 54,
+      "mean_score": 0.2918240740740741,
+      "confidence_interval": [
+        0.24155404336082623,
+        0.34209410478732205
+      ],
+      "upper_bound": 0.34209410478732205
+    },
+    {
+      "path": "root_subtree_7_subtree_0_subtree_0_subtree_5",
+      "size": 26,
+      "mean_score": 0.2911346153846154,
+      "confidence_interval": [
+        0.23712477231919116,
+        0.3451444584500396
+      ],
+      "upper_bound": 0.3451444584500396
+    },
+    {
+      "path": "root_subtree_5_subtree_0",
+      "size": 46,
+      "mean_score": 0.3254021739130435,
+      "confidence_interval": [
+        0.27386503555915925,
+        0.37693931226692773
+      ],
+      "upper_bound": 0.37693931226692773
+    },
+    {
+      "path": "root_subtree_5_subtree_1_subtree_3",
+      "size": 24,
+      "mean_score": 0.3098333333333333,
+      "confidence_interval": [
+        0.24189641763343706,
+        0.37777024903322964
+      ],
+      "upper_bound": 0.37777024903322964
+    },
+    {
+      "path": "root_subtree_9_subtree_0_subtree_2",
+      "size": 47,
+      "mean_score": 0.3222872340425532,
+      "confidence_interval": [
+        0.2660948917383974,
+        0.37847957634670903
+      ],
+      "upper_bound": 0.37847957634670903
+    },
+    {
+      "path": "root_subtree_9_subtree_1_subtree_1_subtree_4",
+      "size": 39,
+      "mean_score": 0.3097820512820512,
+      "confidence_interval": [
+        0.23526700555500377,
+        0.38429709700909864
+      ],
+      "upper_bound": 0.38429709700909864
+    },
+    {
+      "path": "root_subtree_9_subtree_2_subtree_2",
+      "size": 35,
+      "mean_score": 0.31759999999999994,
+      "confidence_interval": [
+        0.24934185980851808,
+        0.3858581401914819
+      ],
+      "upper_bound": 0.3858581401914819
+    },
+    {
+      "path": "root_subtree_9_subtree_1_subtree_1_subtree_5",
+      "size": 23,
+      "mean_score": 0.32158695652173913,
+      "confidence_interval": [
+        0.2526323773740421,
+        0.39054153566943617
+      ],
+      "upper_bound": 0.39054153566943617
+    },
+    {
+      "path": "root_subtree_9_subtree_1_subtree_0",
+      "size": 122,
+      "mean_score": 0.35663934426229504,
+      "confidence_interval": [
+        0.31739083309908817,
+        0.39588785542550203
+      ],
+      "upper_bound": 0.39588785542550203
+    },
+    {
+      "path": "root_subtree_9_subtree_1_subtree_1_subtree_1",
+      "size": 24,
+      "mean_score": 0.32297916666666665,
+      "confidence_interval": [
+        0.24829779120435153,
+        0.3976605421289818
+      ],
+      "upper_bound": 0.3976605421289818
+    }
+  ],
+  "0.5": [
+    {
+      "path": "root_subtree_6_subtree_0_subtree_5_subtree_1",
+      "size": 21,
+      "mean_score": 0.2225238095238095,
+      "confidence_interval": [
+        0.14678179750151646,
+        0.2982658215461026
+      ],
+      "upper_bound": 0.2982658215461026
+    },
+    {
+      "path": "root_subtree_7_subtree_0_subtree_0_subtree_3_subtree_1_subtree_1",
+      "size": 24,
+      "mean_score": 0.24220833333333336,
+      "confidence_interval": [
+        0.1772751179638663,
+        0.3071415487028004
+      ],
+      "upper_bound": 0.3071415487028004
+    },
+    {
+      "path": "root_subtree_9_subtree_0_subtree_1",
+      "size": 54,
+      "mean_score": 0.2918240740740741,
+      "confidence_interval": [
+        0.24155404336082623,
+        0.34209410478732205
+      ],
+      "upper_bound": 0.34209410478732205
+    },
+    {
+      "path": "root_subtree_7_subtree_0_subtree_0_subtree_5",
+      "size": 26,
+      "mean_score": 0.2911346153846154,
+      "confidence_interval": [
+        0.23712477231919116,
+        0.3451444584500396
+      ],
+      "upper_bound": 0.3451444584500396
+    },
+    {
+      "path": "root_subtree_5_subtree_0",
+      "size": 46,
+      "mean_score": 0.3254021739130435,
+      "confidence_interval": [
+        0.27386503555915925,
+        0.37693931226692773
+      ],
+      "upper_bound": 0.37693931226692773
+    },
+    {
+      "path": "root_subtree_5_subtree_1_subtree_3",
+      "size": 24,
+      "mean_score": 0.3098333333333333,
+      "confidence_interval": [
+        0.24189641763343706,
+        0.37777024903322964
+      ],
+      "upper_bound": 0.37777024903322964
+    },
+    {
+      "path": "root_subtree_9_subtree_0_subtree_2",
+      "size": 47,
+      "mean_score": 0.3222872340425532,
+      "confidence_interval": [
+        0.2660948917383974,
+        0.37847957634670903
+      ],
+      "upper_bound": 0.37847957634670903
+    },
+    {
+      "path": "root_subtree_9_subtree_1_subtree_1_subtree_4",
+      "size": 39,
+      "mean_score": 0.3097820512820512,
+      "confidence_interval": [
+        0.23526700555500377,
+        0.38429709700909864
+      ],
+      "upper_bound": 0.38429709700909864
+    },
+    {
+      "path": "root_subtree_9_subtree_2_subtree_2",
+      "size": 35,
+      "mean_score": 0.31759999999999994,
+      "confidence_interval": [
+        0.24934185980851808,
+        0.3858581401914819
+      ],
+      "upper_bound": 0.3858581401914819
+    },
+    {
+      "path": "root_subtree_9_subtree_1_subtree_1_subtree_5",
+      "size": 23,
+      "mean_score": 0.32158695652173913,
+      "confidence_interval": [
+        0.2526323773740421,
+        0.39054153566943617
+      ],
+      "upper_bound": 0.39054153566943617
+    },
+    {
+      "path": "root_subtree_9_subtree_1_subtree_1_subtree_1",
+      "size": 24,
+      "mean_score": 0.32297916666666665,
+      "confidence_interval": [
+        0.24829779120435153,
+        0.3976605421289818
+      ],
+      "upper_bound": 0.3976605421289818
+    },
+    {
+      "path": "root_subtree_6_subtree_6_subtree_1",
+      "size": 34,
+      "mean_score": 0.3456911764705882,
+      "confidence_interval": [
+        0.2724643205177367,
+        0.41891803242343983
+      ],
+      "upper_bound": 0.41891803242343983
+    },
+    {
+      "path": "root_subtree_9_subtree_1_subtree_0_subtree_1",
+      "size": 42,
+      "mean_score": 0.36191666666666666,
+      "confidence_interval": [
+        0.30145282826962394,
+        0.4223805050637095
+      ],
+      "upper_bound": 0.4223805050637095
+    },
+    {
+      "path": "root_subtree_9_subtree_1_subtree_0_subtree_0_subtree_1",
+      "size": 43,
+      "mean_score": 0.35517441860465115,
+      "confidence_interval": [
+        0.2872051994528184,
+        0.423143637756484
+      ],
+      "upper_bound": 0.423143637756484
+    },
+    {
+      "path": "root_subtree_9_subtree_1_subtree_0_subtree_0_subtree_0",
+      "size": 37,
+      "mean_score": 0.3523513513513514,
+      "confidence_interval": [
+        0.27624481298247894,
+        0.4284578897202238
+      ],
+      "upper_bound": 0.4284578897202238
+    },
+    {
+      "path": "root_subtree_7_subtree_0_subtree_0_subtree_7",
+      "size": 29,
+      "mean_score": 0.3940000000000001,
+      "confidence_interval": [
+        0.336189629169972,
+        0.451810370830028
+      ],
+      "upper_bound": 0.451810370830028
+    },
+    {
+      "path": "root_subtree_6_subtree_6_subtree_0_subtree_2",
+      "size": 20,
+      "mean_score": 0.34479999999999994,
+      "confidence_interval": [
+        0.22321636803088996,
+        0.46638363196911004
+      ],
+      "upper_bound": 0.46638363196911004
+    },
+    {
+      "path": "root_subtree_9_subtree_0_subtree_0",
+      "size": 56,
+      "mean_score": 0.4077232142857143,
+      "confidence_interval": [
+        0.34746207713430266,
+        0.467984351437126
+      ],
+      "upper_bound": 0.467984351437126
+    },
+    {
+      "path": "root_subtree_0_subtree_2_subtree_0_subtree_5",
+      "size": 56,
+      "mean_score": 0.3949821428571429,
+      "confidence_interval": [
+        0.3210862218558792,
+        0.46887806385840647
+      ],
+      "upper_bound": 0.46887806385840647
+    },
+    {
+      "path": "root_subtree_9_subtree_2_subtree_1",
+      "size": 25,
+      "mean_score": 0.37577999999999995,
+      "confidence_interval": [
+        0.28209106379714627,
+        0.46946893620285374
+      ],
+      "upper_bound": 0.46946893620285374
+    },
+    {
+      "path": "root_subtree_8_subtree_1_subtree_1_subtree_1",
+      "size": 26,
+      "mean_score": 0.33826923076923077,
+      "confidence_interval": [
+        0.20452142178390542,
+        0.472017039754556
+      ],
+      "upper_bound": 0.472017039754556
+    },
+    {
+      "path": "root_subtree_9_subtree_1_subtree_1_subtree_0_subtree_0",
+      "size": 20,
+      "mean_score": 0.371825,
+      "confidence_interval": [
+        0.2664989950698309,
+        0.47715100493016904
+      ],
+      "upper_bound": 0.47715100493016904
+    },
+    {
+      "path": "root_subtree_9_subtree_1_subtree_1_subtree_2",
+      "size": 47,
+      "mean_score": 0.4188510638297872,
+      "confidence_interval": [
+        0.35109083640201993,
+        0.4866112912575548
+      ],
+      "upper_bound": 0.4866112912575548
+    },
+    {
+      "path": "root_subtree_6_subtree_1",
+      "size": 118,
+      "mean_score": 0.44125847457627115,
+      "confidence_interval": [
+        0.38990045804976187,
+        0.49261649110278055
+      ],
+      "upper_bound": 0.49261649110278055
+    },
+    {
+      "path": "root_subtree_9_subtree_2_subtree_5",
+      "size": 24,
+      "mean_score": 0.4043541666666666,
+      "confidence_interval": [
+        0.31329565976131385,
+        0.4954126735720194
+      ],
+      "upper_bound": 0.4954126735720194
+    },
+    {
+      "path": "root_subtree_9_subtree_1_subtree_1_subtree_3_subtree_1",
+      "size": 21,
+      "mean_score": 0.3943809523809524,
+      "confidence_interval": [
+        0.2915374460950173,
+        0.4972244586668876
+      ],
+      "upper_bound": 0.4972244586668876
+    },
+    {
+      "path": "root_subtree_6_subtree_5_subtree_0_subtree_0",
+      "size": 39,
+      "mean_score": 0.4040641025641026,
+      "confidence_interval": [
+        0.30935876645842403,
+        0.498769438669781
+      ],
+      "upper_bound": 0.498769438669781
+    }
+  ],
+  "0.6": [
+    {
+      "path": "root_subtree_6_subtree_0_subtree_5_subtree_1",
+      "size": 21,
+      "mean_score": 0.2225238095238095,
+      "confidence_interval": [
+        0.14678179750151646,
+        0.2982658215461026
+      ],
+      "upper_bound": 0.2982658215461026
+    },
+    {
+      "path": "root_subtree_7_subtree_0_subtree_0_subtree_3_subtree_1_subtree_1",
+      "size": 24,
+      "mean_score": 0.24220833333333336,
+      "confidence_interval": [
+        0.1772751179638663,
+        0.3071415487028004
+      ],
+      "upper_bound": 0.3071415487028004
+    },
+    {
+      "path": "root_subtree_9_subtree_0_subtree_1",
+      "size": 54,
+      "mean_score": 0.2918240740740741,
+      "confidence_interval": [
+        0.24155404336082623,
+        0.34209410478732205
+      ],
+      "upper_bound": 0.34209410478732205
+    },
+    {
+      "path": "root_subtree_7_subtree_0_subtree_0_subtree_5",
+      "size": 26,
+      "mean_score": 0.2911346153846154,
+      "confidence_interval": [
+        0.23712477231919116,
+        0.3451444584500396
+      ],
+      "upper_bound": 0.3451444584500396
+    },
+    {
+      "path": "root_subtree_5_subtree_0",
+      "size": 46,
+      "mean_score": 0.3254021739130435,
+      "confidence_interval": [
+        0.27386503555915925,
+        0.37693931226692773
+      ],
+      "upper_bound": 0.37693931226692773
+    },
+    {
+      "path": "root_subtree_5_subtree_1_subtree_3",
+      "size": 24,
+      "mean_score": 0.3098333333333333,
+      "confidence_interval": [
+        0.24189641763343706,
+        0.37777024903322964
+      ],
+      "upper_bound": 0.37777024903322964
+    },
+    {
+      "path": "root_subtree_9_subtree_0_subtree_2",
+      "size": 47,
+      "mean_score": 0.3222872340425532,
+      "confidence_interval": [
+        0.2660948917383974,
+        0.37847957634670903
+      ],
+      "upper_bound": 0.37847957634670903
+    },
+    {
+      "path": "root_subtree_9_subtree_1_subtree_1_subtree_4",
+      "size": 39,
+      "mean_score": 0.3097820512820512,
+      "confidence_interval": [
+        0.23526700555500377,
+        0.38429709700909864
+      ],
+      "upper_bound": 0.38429709700909864
+    },
+    {
+      "path": "root_subtree_9_subtree_2_subtree_2",
+      "size": 35,
+      "mean_score": 0.31759999999999994,
+      "confidence_interval": [
+        0.24934185980851808,
+        0.3858581401914819
+      ],
+      "upper_bound": 0.3858581401914819
+    },
+    {
+      "path": "root_subtree_9_subtree_1_subtree_1_subtree_5",
+      "size": 23,
+      "mean_score": 0.32158695652173913,
+      "confidence_interval": [
+        0.2526323773740421,
+        0.39054153566943617
+      ],
+      "upper_bound": 0.39054153566943617
+    },
+    {
+      "path": "root_subtree_9_subtree_1_subtree_1_subtree_1",
+      "size": 24,
+      "mean_score": 0.32297916666666665,
+      "confidence_interval": [
+        0.24829779120435153,
+        0.3976605421289818
+      ],
+      "upper_bound": 0.3976605421289818
+    },
+    {
+      "path": "root_subtree_6_subtree_6_subtree_1",
+      "size": 34,
+      "mean_score": 0.3456911764705882,
+      "confidence_interval": [
+        0.2724643205177367,
+        0.41891803242343983
+      ],
+      "upper_bound": 0.41891803242343983
+    },
+    {
+      "path": "root_subtree_9_subtree_1_subtree_0_subtree_1",
+      "size": 42,
+      "mean_score": 0.36191666666666666,
+      "confidence_interval": [
+        0.30145282826962394,
+        0.4223805050637095
+      ],
+      "upper_bound": 0.4223805050637095
+    },
+    {
+      "path": "root_subtree_9_subtree_1_subtree_0_subtree_0_subtree_1",
+      "size": 43,
+      "mean_score": 0.35517441860465115,
+      "confidence_interval": [
+        0.2872051994528184,
+        0.423143637756484
+      ],
+      "upper_bound": 0.423143637756484
+    },
+    {
+      "path": "root_subtree_9_subtree_1_subtree_0_subtree_0_subtree_0",
+      "size": 37,
+      "mean_score": 0.3523513513513514,
+      "confidence_interval": [
+        0.27624481298247894,
+        0.4284578897202238
+      ],
+      "upper_bound": 0.4284578897202238
+    },
+    {
+      "path": "root_subtree_7_subtree_0_subtree_0_subtree_7",
+      "size": 29,
+      "mean_score": 0.3940000000000001,
+      "confidence_interval": [
+        0.336189629169972,
+        0.451810370830028
+      ],
+      "upper_bound": 0.451810370830028
+    },
+    {
+      "path": "root_subtree_6_subtree_6_subtree_0_subtree_2",
+      "size": 20,
+      "mean_score": 0.34479999999999994,
+      "confidence_interval": [
+        0.22321636803088996,
+        0.46638363196911004
+      ],
+      "upper_bound": 0.46638363196911004
+    },
+    {
+      "path": "root_subtree_9_subtree_0_subtree_0",
+      "size": 56,
+      "mean_score": 0.4077232142857143,
+      "confidence_interval": [
+        0.34746207713430266,
+        0.467984351437126
+      ],
+      "upper_bound": 0.467984351437126
+    },
+    {
+      "path": "root_subtree_0_subtree_2_subtree_0_subtree_5",
+      "size": 56,
+      "mean_score": 0.3949821428571429,
+      "confidence_interval": [
+        0.3210862218558792,
+        0.46887806385840647
+      ],
+      "upper_bound": 0.46887806385840647
+    },
+    {
+      "path": "root_subtree_9_subtree_2_subtree_1",
+      "size": 25,
+      "mean_score": 0.37577999999999995,
+      "confidence_interval": [
+        0.28209106379714627,
+        0.46946893620285374
+      ],
+      "upper_bound": 0.46946893620285374
+    },
+    {
+      "path": "root_subtree_8_subtree_1_subtree_1_subtree_1",
+      "size": 26,
+      "mean_score": 0.33826923076923077,
+      "confidence_interval": [
+        0.20452142178390542,
+        0.472017039754556
+      ],
+      "upper_bound": 0.472017039754556
+    },
+    {
+      "path": "root_subtree_9_subtree_1_subtree_1_subtree_0_subtree_0",
+      "size": 20,
+      "mean_score": 0.371825,
+      "confidence_interval": [
+        0.2664989950698309,
+        0.47715100493016904
+      ],
+      "upper_bound": 0.47715100493016904
+    },
+    {
+      "path": "root_subtree_9_subtree_2_subtree_5",
+      "size": 24,
+      "mean_score": 0.4043541666666666,
+      "confidence_interval": [
+        0.31329565976131385,
+        0.4954126735720194
+      ],
+      "upper_bound": 0.4954126735720194
+    },
+    {
+      "path": "root_subtree_9_subtree_1_subtree_1_subtree_3_subtree_1",
+      "size": 21,
+      "mean_score": 0.3943809523809524,
+      "confidence_interval": [
+        0.2915374460950173,
+        0.4972244586668876
+      ],
+      "upper_bound": 0.4972244586668876
+    },
+    {
+      "path": "root_subtree_6_subtree_5_subtree_0_subtree_0",
+      "size": 39,
+      "mean_score": 0.4040641025641026,
+      "confidence_interval": [
+        0.30935876645842403,
+        0.498769438669781
+      ],
+      "upper_bound": 0.498769438669781
+    },
+    {
+      "path": "root_subtree_9_subtree_1_subtree_1_subtree_2_subtree_0",
+      "size": 38,
+      "mean_score": 0.42528947368421055,
+      "confidence_interval": [
+        0.3459863210205621,
+        0.5045926263478591
+      ],
+      "upper_bound": 0.5045926263478591
+    },
+    {
+      "path": "root_subtree_6_subtree_3",
+      "size": 63,
+      "mean_score": 0.44300000000000006,
+      "confidence_interval": [
+        0.37556762297230706,
+        0.5104323770276931
+      ],
+      "upper_bound": 0.5104323770276931
+    },
+    {
+      "path": "root_subtree_9_subtree_1_subtree_1_subtree_7_subtree_1",
+      "size": 24,
+      "mean_score": 0.42777083333333327,
+      "confidence_interval": [
+        0.3386372320109741,
+        0.5169044346556927
+      ],
+      "upper_bound": 0.5169044346556927
+    },
+    {
+      "path": "root_subtree_7_subtree_0_subtree_0_subtree_2",
+      "size": 53,
+      "mean_score": 0.4511320754716982,
+      "confidence_interval": [
+        0.38126720883000004,
+        0.5209969421133962
+      ],
+      "upper_bound": 0.5209969421133962
+    },
+    {
+      "path": "root_subtree_6_subtree_1_subtree_4",
+      "size": 21,
+      "mean_score": 0.4174999999999999,
+      "confidence_interval": [
+        0.2900872997783275,
+        0.5449127002216724
+      ],
+      "upper_bound": 0.5449127002216724
+    },
+    {
+      "path": "root_subtree_0_subtree_2_subtree_0_subtree_3_subtree_1",
+      "size": 26,
+      "mean_score": 0.42401923076923076,
+      "confidence_interval": [
+        0.298432788753628,
+        0.5496056727848336
+      ],
+      "upper_bound": 0.5496056727848336
+    },
+    {
+      "path": "root_subtree_1_subtree_6",
+      "size": 26,
+      "mean_score": 0.43667307692307694,
+      "confidence_interval": [
+        0.3160444896232924,
+        0.5573016642228614
+      ],
+      "upper_bound": 0.5573016642228614
+    },
+    {
+      "path": "root_subtree_5_subtree_2",
+      "size": 39,
+      "mean_score": 0.4714358974358974,
+      "confidence_interval": [
+        0.37469432985198686,
+        0.5681774650198081
+      ],
+      "upper_bound": 0.5681774650198081
+    },
+    {
+      "path": "root_subtree_6_subtree_4_subtree_1",
+      "size": 37,
+      "mean_score": 0.4685945945945946,
+      "confidence_interval": [
+        0.3662402631122096,
+        0.5709489260769794
+      ],
+      "upper_bound": 0.5709489260769794
+    },
+    {
+      "path": "root_subtree_6_subtree_4_subtree_0",
+      "size": 45,
+      "mean_score": 0.49428888888888894,
+      "confidence_interval": [
+        0.4117651242671924,
+        0.5768126535105855
+      ],
+      "upper_bound": 0.5768126535105855
+    },
+    {
+      "path": "root_subtree_4_subtree_2",
+      "size": 57,
+      "mean_score": 0.4985701754385965,
+      "confidence_interval": [
+        0.41623112302647786,
+        0.5809092278507151
+      ],
+      "upper_bound": 0.5809092278507151
+    },
+    {
+      "path": "root_subtree_7_subtree_0_subtree_2_subtree_0",
+      "size": 48,
+      "mean_score": 0.4985312499999999,
+      "confidence_interval": [
+        0.41305197747507116,
+        0.5840105225249289
+      ],
+      "upper_bound": 0.5840105225249289
+    },
+    {
+      "path": "root_subtree_0_subtree_2_subtree_0_subtree_1",
+      "size": 66,
+      "mean_score": 0.5289772727272728,
+      "confidence_interval": [
+        0.461236234400362,
+        0.5967183110541834
+      ],
+      "upper_bound": 0.5967183110541834
+    },
+    {
+      "path": "root_subtree_4_subtree_0_subtree_5",
+      "size": 36,
+      "mean_score": 0.4897777777777777,
+      "confidence_interval": [
+        0.37970362943774005,
+        0.5998519261178156
+      ],
+      "upper_bound": 0.5998519261178156
+    }
+  ],
+  "0.7": [
+    {
+      "path": "root_subtree_6_subtree_0_subtree_5_subtree_1",
+      "size": 21,
+      "mean_score": 0.2225238095238095,
+      "confidence_interval": [
+        0.14678179750151646,
+        0.2982658215461026
+      ],
+      "upper_bound": 0.2982658215461026
+    },
+    {
+      "path": "root_subtree_7_subtree_0_subtree_0_subtree_3_subtree_1_subtree_1",
+      "size": 24,
+      "mean_score": 0.24220833333333336,
+      "confidence_interval": [
+        0.1772751179638663,
+        0.3071415487028004
+      ],
+      "upper_bound": 0.3071415487028004
+    },
+    {
+      "path": "root_subtree_9_subtree_0_subtree_1",
+      "size": 54,
+      "mean_score": 0.2918240740740741,
+      "confidence_interval": [
+        0.24155404336082623,
+        0.34209410478732205
+      ],
+      "upper_bound": 0.34209410478732205
+    },
+    {
+      "path": "root_subtree_7_subtree_0_subtree_0_subtree_5",
+      "size": 26,
+      "mean_score": 0.2911346153846154,
+      "confidence_interval": [
+        0.23712477231919116,
+        0.3451444584500396
+      ],
+      "upper_bound": 0.3451444584500396
+    },
+    {
+      "path": "root_subtree_5_subtree_0",
+      "size": 46,
+      "mean_score": 0.3254021739130435,
+      "confidence_interval": [
+        0.27386503555915925,
+        0.37693931226692773
+      ],
+      "upper_bound": 0.37693931226692773
+    },
+    {
+      "path": "root_subtree_5_subtree_1_subtree_3",
+      "size": 24,
+      "mean_score": 0.3098333333333333,
+      "confidence_interval": [
+        0.24189641763343706,
+        0.37777024903322964
+      ],
+      "upper_bound": 0.37777024903322964
+    },
+    {
+      "path": "root_subtree_9_subtree_0_subtree_2",
+      "size": 47,
+      "mean_score": 0.3222872340425532,
+      "confidence_interval": [
+        0.2660948917383974,
+        0.37847957634670903
+      ],
+      "upper_bound": 0.37847957634670903
+    },
+    {
+      "path": "root_subtree_9_subtree_1_subtree_1_subtree_4",
+      "size": 39,
+      "mean_score": 0.3097820512820512,
+      "confidence_interval": [
+        0.23526700555500377,
+        0.38429709700909864
+      ],
+      "upper_bound": 0.38429709700909864
+    },
+    {
+      "path": "root_subtree_9_subtree_2_subtree_2",
+      "size": 35,
+      "mean_score": 0.31759999999999994,
+      "confidence_interval": [
+        0.24934185980851808,
+        0.3858581401914819
+      ],
+      "upper_bound": 0.3858581401914819
+    },
+    {
+      "path": "root_subtree_9_subtree_1_subtree_1_subtree_5",
+      "size": 23,
+      "mean_score": 0.32158695652173913,
+      "confidence_interval": [
+        0.2526323773740421,
+        0.39054153566943617
+      ],
+      "upper_bound": 0.39054153566943617
+    },
+    {
+      "path": "root_subtree_9_subtree_1_subtree_1_subtree_1",
+      "size": 24,
+      "mean_score": 0.32297916666666665,
+      "confidence_interval": [
+        0.24829779120435153,
+        0.3976605421289818
+      ],
+      "upper_bound": 0.3976605421289818
+    },
+    {
+      "path": "root_subtree_6_subtree_6_subtree_1",
+      "size": 34,
+      "mean_score": 0.3456911764705882,
+      "confidence_interval": [
+        0.2724643205177367,
+        0.41891803242343983
+      ],
+      "upper_bound": 0.41891803242343983
+    },
+    {
+      "path": "root_subtree_9_subtree_1_subtree_0_subtree_1",
+      "size": 42,
+      "mean_score": 0.36191666666666666,
+      "confidence_interval": [
+        0.30145282826962394,
+        0.4223805050637095
+      ],
+      "upper_bound": 0.4223805050637095
+    },
+    {
+      "path": "root_subtree_9_subtree_1_subtree_0_subtree_0_subtree_1",
+      "size": 43,
+      "mean_score": 0.35517441860465115,
+      "confidence_interval": [
+        0.2872051994528184,
+        0.423143637756484
+      ],
+      "upper_bound": 0.423143637756484
+    },
+    {
+      "path": "root_subtree_9_subtree_1_subtree_0_subtree_0_subtree_0",
+      "size": 37,
+      "mean_score": 0.3523513513513514,
+      "confidence_interval": [
+        0.27624481298247894,
+        0.4284578897202238
+      ],
+      "upper_bound": 0.4284578897202238
+    },
+    {
+      "path": "root_subtree_7_subtree_0_subtree_0_subtree_7",
+      "size": 29,
+      "mean_score": 0.3940000000000001,
+      "confidence_interval": [
+        0.336189629169972,
+        0.451810370830028
+      ],
+      "upper_bound": 0.451810370830028
+    },
+    {
+      "path": "root_subtree_6_subtree_6_subtree_0_subtree_2",
+      "size": 20,
+      "mean_score": 0.34479999999999994,
+      "confidence_interval": [
+        0.22321636803088996,
+        0.46638363196911004
+      ],
+      "upper_bound": 0.46638363196911004
+    },
+    {
+      "path": "root_subtree_9_subtree_0_subtree_0",
+      "size": 56,
+      "mean_score": 0.4077232142857143,
+      "confidence_interval": [
+        0.34746207713430266,
+        0.467984351437126
+      ],
+      "upper_bound": 0.467984351437126
+    },
+    {
+      "path": "root_subtree_0_subtree_2_subtree_0_subtree_5",
+      "size": 56,
+      "mean_score": 0.3949821428571429,
+      "confidence_interval": [
+        0.3210862218558792,
+        0.46887806385840647
+      ],
+      "upper_bound": 0.46887806385840647
+    },
+    {
+      "path": "root_subtree_9_subtree_2_subtree_1",
+      "size": 25,
+      "mean_score": 0.37577999999999995,
+      "confidence_interval": [
+        0.28209106379714627,
+        0.46946893620285374
+      ],
+      "upper_bound": 0.46946893620285374
+    },
+    {
+      "path": "root_subtree_8_subtree_1_subtree_1_subtree_1",
+      "size": 26,
+      "mean_score": 0.33826923076923077,
+      "confidence_interval": [
+        0.20452142178390542,
+        0.472017039754556
+      ],
+      "upper_bound": 0.472017039754556
+    },
+    {
+      "path": "root_subtree_9_subtree_1_subtree_1_subtree_0_subtree_0",
+      "size": 20,
+      "mean_score": 0.371825,
+      "confidence_interval": [
+        0.2664989950698309,
+        0.47715100493016904
+      ],
+      "upper_bound": 0.47715100493016904
+    },
+    {
+      "path": "root_subtree_9_subtree_2_subtree_5",
+      "size": 24,
+      "mean_score": 0.4043541666666666,
+      "confidence_interval": [
+        0.31329565976131385,
+        0.4954126735720194
+      ],
+      "upper_bound": 0.4954126735720194
+    },
+    {
+      "path": "root_subtree_9_subtree_1_subtree_1_subtree_3_subtree_1",
+      "size": 21,
+      "mean_score": 0.3943809523809524,
+      "confidence_interval": [
+        0.2915374460950173,
+        0.4972244586668876
+      ],
+      "upper_bound": 0.4972244586668876
+    },
+    {
+      "path": "root_subtree_6_subtree_5_subtree_0_subtree_0",
+      "size": 39,
+      "mean_score": 0.4040641025641026,
+      "confidence_interval": [
+        0.30935876645842403,
+        0.498769438669781
+      ],
+      "upper_bound": 0.498769438669781
+    },
+    {
+      "path": "root_subtree_9_subtree_1_subtree_1_subtree_2_subtree_0",
+      "size": 38,
+      "mean_score": 0.42528947368421055,
+      "confidence_interval": [
+        0.3459863210205621,
+        0.5045926263478591
+      ],
+      "upper_bound": 0.5045926263478591
+    },
+    {
+      "path": "root_subtree_6_subtree_3",
+      "size": 63,
+      "mean_score": 0.44300000000000006,
+      "confidence_interval": [
+        0.37556762297230706,
+        0.5104323770276931
+      ],
+      "upper_bound": 0.5104323770276931
+    },
+    {
+      "path": "root_subtree_9_subtree_1_subtree_1_subtree_7_subtree_1",
+      "size": 24,
+      "mean_score": 0.42777083333333327,
+      "confidence_interval": [
+        0.3386372320109741,
+        0.5169044346556927
+      ],
+      "upper_bound": 0.5169044346556927
+    },
+    {
+      "path": "root_subtree_7_subtree_0_subtree_0_subtree_2",
+      "size": 53,
+      "mean_score": 0.4511320754716982,
+      "confidence_interval": [
+        0.38126720883000004,
+        0.5209969421133962
+      ],
+      "upper_bound": 0.5209969421133962
+    },
+    {
+      "path": "root_subtree_6_subtree_1_subtree_4",
+      "size": 21,
+      "mean_score": 0.4174999999999999,
+      "confidence_interval": [
+        0.2900872997783275,
+        0.5449127002216724
+      ],
+      "upper_bound": 0.5449127002216724
+    },
+    {
+      "path": "root_subtree_0_subtree_2_subtree_0_subtree_3_subtree_1",
+      "size": 26,
+      "mean_score": 0.42401923076923076,
+      "confidence_interval": [
+        0.298432788753628,
+        0.5496056727848336
+      ],
+      "upper_bound": 0.5496056727848336
+    },
+    {
+      "path": "root_subtree_1_subtree_6",
+      "size": 26,
+      "mean_score": 0.43667307692307694,
+      "confidence_interval": [
+        0.3160444896232924,
+        0.5573016642228614
+      ],
+      "upper_bound": 0.5573016642228614
+    },
+    {
+      "path": "root_subtree_5_subtree_2",
+      "size": 39,
+      "mean_score": 0.4714358974358974,
+      "confidence_interval": [
+        0.37469432985198686,
+        0.5681774650198081
+      ],
+      "upper_bound": 0.5681774650198081
+    },
+    {
+      "path": "root_subtree_6_subtree_4_subtree_1",
+      "size": 37,
+      "mean_score": 0.4685945945945946,
+      "confidence_interval": [
+        0.3662402631122096,
+        0.5709489260769794
+      ],
+      "upper_bound": 0.5709489260769794
+    },
+    {
+      "path": "root_subtree_4_subtree_2",
+      "size": 57,
+      "mean_score": 0.4985701754385965,
+      "confidence_interval": [
+        0.41623112302647786,
+        0.5809092278507151
+      ],
+      "upper_bound": 0.5809092278507151
+    },
+    {
+      "path": "root_subtree_7_subtree_0_subtree_2_subtree_0",
+      "size": 48,
+      "mean_score": 0.4985312499999999,
+      "confidence_interval": [
+        0.41305197747507116,
+        0.5840105225249289
+      ],
+      "upper_bound": 0.5840105225249289
+    },
+    {
+      "path": "root_subtree_6_subtree_4_subtree_0_subtree_0",
+      "size": 29,
+      "mean_score": 0.5115862068965518,
+      "confidence_interval": [
+        0.41057820724826827,
+        0.6125942065448353
+      ],
+      "upper_bound": 0.6125942065448353
+    },
+    {
+      "path": "root_subtree_0_subtree_2_subtree_0_subtree_1_subtree_1",
+      "size": 47,
+      "mean_score": 0.5518510638297872,
+      "confidence_interval": [
+        0.4794594858306831,
+        0.6242426418288916
+      ],
+      "upper_bound": 0.6242426418288916
+    },
+    {
+      "path": "root_subtree_6_subtree_0_subtree_9",
+      "size": 23,
+      "mean_score": 0.5001956521739129,
+      "confidence_interval": [
+        0.3692793307175316,
+        0.6311119736302945
+      ],
+      "upper_bound": 0.6311119736302945
+    },
+    {
+      "path": "root_subtree_2_subtree_0_subtree_2_subtree_1_subtree_1_subtree_0",
+      "size": 21,
+      "mean_score": 0.5231428571428571,
+      "confidence_interval": [
+        0.41120995779885056,
+        0.6350757564868641
+      ],
+      "upper_bound": 0.6350757564868641
+    },
+    {
+      "path": "root_subtree_0_subtree_2_subtree_1",
+      "size": 73,
+      "mean_score": 0.5742671232876713,
+      "confidence_interval": [
+        0.49558688997662037,
+        0.6529473565987222
+      ],
+      "upper_bound": 0.6529473565987222
+    },
+    {
+      "path": "root_subtree_4_subtree_0_subtree_5_subtree_0",
+      "size": 26,
+      "mean_score": 0.5307884615384615,
+      "confidence_interval": [
+        0.40245251162685947,
+        0.6591244114500637
+      ],
+      "upper_bound": 0.6591244114500637
+    },
+    {
+      "path": "root_subtree_3_subtree_4_subtree_2_subtree_1_subtree_1",
+      "size": 27,
+      "mean_score": 0.5396851851851852,
+      "confidence_interval": [
+        0.41692606549142225,
+        0.662444304878948
+      ],
+      "upper_bound": 0.662444304878948
+    },
+    {
+      "path": "root_subtree_2_subtree_0_subtree_1_subtree_0",
+      "size": 29,
+      "mean_score": 0.5399310344827586,
+      "confidence_interval": [
+        0.4170373066091088,
+        0.6628247623564083
+      ],
+      "upper_bound": 0.6628247623564083
+    },
+    {
+      "path": "root_subtree_7_subtree_1_subtree_0_subtree_1_subtree_1_subtree_1",
+      "size": 24,
+      "mean_score": 0.5452916666666668,
+      "confidence_interval": [
+        0.4239514345143704,
+        0.6666318988189629
+      ],
+      "upper_bound": 0.6666318988189629
+    },
+    {
+      "path": "root_subtree_8_subtree_1_subtree_0_subtree_1_subtree_1",
+      "size": 30,
+      "mean_score": 0.5648333333333333,
+      "confidence_interval": [
+        0.45137996050718227,
+        0.6782867061594844
+      ],
+      "upper_bound": 0.6782867061594844
+    },
+    {
+      "path": "root_subtree_2_subtree_1_subtree_0",
+      "size": 42,
+      "mean_score": 0.5816904761904762,
+      "confidence_interval": [
+        0.4849670746021594,
+        0.678413877778793
+      ],
+      "upper_bound": 0.678413877778793
+    },
+    {
+      "path": "root_subtree_2_subtree_1_subtree_6_subtree_1",
+      "size": 20,
+      "mean_score": 0.5351750000000001,
+      "confidence_interval": [
+        0.389899010743172,
+        0.6804509892568279
+      ],
+      "upper_bound": 0.6804509892568279
+    },
+    {
+      "path": "root_subtree_0_subtree_1_subtree_1",
+      "size": 140,
+      "mean_score": 0.6411857142857142,
+      "confidence_interval": [
+        0.589145768613183,
+        0.6932256599582455
+      ],
+      "upper_bound": 0.6932256599582455
+    },
+    {
+      "path": "root_subtree_8_subtree_2_subtree_0",
+      "size": 73,
+      "mean_score": 0.6263219178082191,
+      "confidence_interval": [
+        0.5580205126386398,
+        0.6946233229777984
+      ],
+      "upper_bound": 0.6946233229777984
+    },
+    {
+      "path": "root_subtree_2_subtree_1_subtree_4",
+      "size": 24,
+      "mean_score": 0.5800000000000001,
+      "confidence_interval": [
+        0.46436023069702864,
+        0.6956397693029714
+      ],
+      "upper_bound": 0.6956397693029714
+    },
+    {
+      "path": "root_subtree_4_subtree_1_subtree_0",
+      "size": 84,
+      "mean_score": 0.6328928571428571,
+      "confidence_interval": [
+        0.5693766606301216,
+        0.6964090536555927
+      ],
+      "upper_bound": 0.6964090536555927
+    }
+  ]
+}

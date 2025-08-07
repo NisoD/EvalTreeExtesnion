@@ -1,0 +1,287 @@
+{
+  "abstract_algebra": {
+    "weak_at_thresholds": 5,
+    "robustness": 0.29105,
+    "consistency_percentage": 100.0
+  },
+  "anatomy": {
+    "weak_at_thresholds": 2,
+    "robustness": 0.594465,
+    "consistency_percentage": 40.0
+  },
+  "astronomy": {
+    "weak_at_thresholds": 1,
+    "robustness": 0.637775,
+    "consistency_percentage": 20.0
+  },
+  "business_ethics": {
+    "weak_at_thresholds": 1,
+    "robustness": 0.61958,
+    "consistency_percentage": 20.0
+  },
+  "clinical_knowledge": {
+    "weak_at_thresholds": 1,
+    "robustness": 0.6199027777777778,
+    "consistency_percentage": 20.0
+  },
+  "college_biology": {
+    "weak_at_thresholds": 1,
+    "robustness": 0.6743,
+    "consistency_percentage": 20.0
+  },
+  "college_chemistry": {
+    "weak_at_thresholds": 3,
+    "robustness": 0.423085,
+    "consistency_percentage": 60.0
+  },
+  "college_computer_science": {
+    "weak_at_thresholds": 3,
+    "robustness": 0.43307,
+    "consistency_percentage": 60.0
+  },
+  "college_mathematics": {
+    "weak_at_thresholds": 5,
+    "robustness": 0.28982,
+    "consistency_percentage": 100.0
+  },
+  "college_medicine": {
+    "weak_at_thresholds": 2,
+    "robustness": 0.5513223684210526,
+    "consistency_percentage": 40.0
+  },
+  "college_physics": {
+    "weak_at_thresholds": 4,
+    "robustness": 0.3092808988764045,
+    "consistency_percentage": 80.0
+  },
+  "computer_security": {
+    "weak_at_thresholds": 1,
+    "robustness": 0.67077,
+    "consistency_percentage": 20.0
+  },
+  "conceptual_physics": {
+    "weak_at_thresholds": 2,
+    "robustness": 0.50412,
+    "consistency_percentage": 40.0
+  },
+  "econometrics": {
+    "weak_at_thresholds": 3,
+    "robustness": 0.43179,
+    "consistency_percentage": 60.0
+  },
+  "electrical_engineering": {
+    "weak_at_thresholds": 2,
+    "robustness": 0.528405,
+    "consistency_percentage": 40.0
+  },
+  "elementary_mathematics": {
+    "weak_at_thresholds": 3,
+    "robustness": 0.42126,
+    "consistency_percentage": 60.0
+  },
+  "formal_logic": {
+    "weak_at_thresholds": 4,
+    "robustness": 0.393575,
+    "consistency_percentage": 80.0
+  },
+  "global_facts": {
+    "weak_at_thresholds": 4,
+    "robustness": 0.38073,
+    "consistency_percentage": 80.0
+  },
+  "high_school_biology": {
+    "weak_at_thresholds": 1,
+    "robustness": 0.64412,
+    "consistency_percentage": 20.0
+  },
+  "high_school_chemistry": {
+    "weak_at_thresholds": 3,
+    "robustness": 0.42347,
+    "consistency_percentage": 60.0
+  },
+  "high_school_computer_science": {
+    "weak_at_thresholds": 2,
+    "robustness": 0.588325,
+    "consistency_percentage": 40.0
+  },
+  "high_school_european_history": {
+    "weak_at_thresholds": 1,
+    "robustness": 0.6451464646464646,
+    "consistency_percentage": 20.0
+  },
+  "high_school_geography": {
+    "weak_at_thresholds": 1,
+    "robustness": 0.694465,
+    "consistency_percentage": 20.0
+  },
+  "high_school_government_and_politics": {
+    "weak_at_thresholds": 0,
+    "robustness": 0.8139141414141414,
+    "consistency_percentage": 0.0
+  },
+  "high_school_macroeconomics": {
+    "weak_at_thresholds": 2,
+    "robustness": 0.570625,
+    "consistency_percentage": 40.0
+  },
+  "high_school_mathematics": {
+    "weak_at_thresholds": 4,
+    "robustness": 0.304095,
+    "consistency_percentage": 80.0
+  },
+  "high_school_microeconomics": {
+    "weak_at_thresholds": 1,
+    "robustness": 0.610255,
+    "consistency_percentage": 20.0
+  },
+  "high_school_physics": {
+    "weak_at_thresholds": 4,
+    "robustness": 0.30143,
+    "consistency_percentage": 80.0
+  },
+  "high_school_psychology": {
+    "weak_at_thresholds": 0,
+    "robustness": 0.777020202020202,
+    "consistency_percentage": 0.0
+  },
+  "high_school_statistics": {
+    "weak_at_thresholds": 3,
+    "robustness": 0.41313,
+    "consistency_percentage": 60.0
+  },
+  "high_school_us_history": {
+    "weak_at_thresholds": 0,
+    "robustness": 0.751435,
+    "consistency_percentage": 0.0
+  },
+  "high_school_world_history": {
+    "weak_at_thresholds": 0,
+    "robustness": 0.7215303030303031,
+    "consistency_percentage": 0.0
+  },
+  "human_aging": {
+    "weak_at_thresholds": 1,
+    "robustness": 0.62407,
+    "consistency_percentage": 20.0
+  },
+  "human_sexuality": {
+    "weak_at_thresholds": 1,
+    "robustness": 0.66017,
+    "consistency_percentage": 20.0
+  },
+  "international_law": {
+    "weak_at_thresholds": 0,
+    "robustness": 0.70505,
+    "consistency_percentage": 0.0
+  },
+  "jurisprudence": {
+    "weak_at_thresholds": 1,
+    "robustness": 0.671405,
+    "consistency_percentage": 20.0
+  },
+  "logical_fallacies": {
+    "weak_at_thresholds": 1,
+    "robustness": 0.664295,
+    "consistency_percentage": 20.0
+  },
+  "machine_learning": {
+    "weak_at_thresholds": 3,
+    "robustness": 0.418245,
+    "consistency_percentage": 60.0
+  },
+  "management": {
+    "weak_at_thresholds": 0,
+    "robustness": 0.764645,
+    "consistency_percentage": 0.0
+  },
+  "marketing": {
+    "weak_at_thresholds": 0,
+    "robustness": 0.84581,
+    "consistency_percentage": 0.0
+  },
+  "medical_genetics": {
+    "weak_at_thresholds": 0,
+    "robustness": 0.702655,
+    "consistency_percentage": 0.0
+  },
+  "miscellaneous": {
+    "weak_at_thresholds": 0,
+    "robustness": 0.718705,
+    "consistency_percentage": 0.0
+  },
+  "moral_disputes": {
+    "weak_at_thresholds": 2,
+    "robustness": 0.54553,
+    "consistency_percentage": 40.0
+  },
+  "moral_scenarios": {
+    "weak_at_thresholds": 4,
+    "robustness": 0.336,
+    "consistency_percentage": 80.0
+  },
+  "nutrition": {
+    "weak_at_thresholds": 1,
+    "robustness": 0.68493,
+    "consistency_percentage": 20.0
+  },
+  "philosophy": {
+    "weak_at_thresholds": 1,
+    "robustness": 0.66582,
+    "consistency_percentage": 20.0
+  },
+  "prehistory": {
+    "weak_at_thresholds": 1,
+    "robustness": 0.664135,
+    "consistency_percentage": 20.0
+  },
+  "professional_accounting": {
+    "weak_at_thresholds": 3,
+    "robustness": 0.46528,
+    "consistency_percentage": 60.0
+  },
+  "professional_law": {
+    "weak_at_thresholds": 3,
+    "robustness": 0.4306,
+    "consistency_percentage": 60.0
+  },
+  "professional_medicine": {
+    "weak_at_thresholds": 1,
+    "robustness": 0.668015,
+    "consistency_percentage": 20.0
+  },
+  "professional_psychology": {
+    "weak_at_thresholds": 1,
+    "robustness": 0.621675,
+    "consistency_percentage": 20.0
+  },
+  "public_relations": {
+    "weak_at_thresholds": 1,
+    "robustness": 0.62149,
+    "consistency_percentage": 20.0
+  },
+  "security_studies": {
+    "weak_at_thresholds": 1,
+    "robustness": 0.64318,
+    "consistency_percentage": 20.0
+  },
+  "sociology": {
+    "weak_at_thresholds": 0,
+    "robustness": 0.74243,
+    "consistency_percentage": 0.0
+  },
+  "us_foreign_policy": {
+    "weak_at_thresholds": 0,
+    "robustness": 0.7725555555555556,
+    "consistency_percentage": 0.0
+  },
+  "virology": {
+    "weak_at_thresholds": 3,
+    "robustness": 0.49642,
+    "consistency_percentage": 60.0
+  },
+  "world_religions": {
+    "weak_at_thresholds": 0,
+    "robustness": 0.7245,
+    "consistency_percentage": 0.0
+  }
+}

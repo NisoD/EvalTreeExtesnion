@@ -1,245 +1,148 @@
-# EvalTree: Profiling Language Model Weaknesses via Hierarchical Capability Trees
+# DOVE-Based Weakness Profiling for Language Models
 
-This repository contains the **code and data** for the paper:
+## 🎯 **Research Focus**
 
-**EvalTree: Profiling Language Model Weaknesses via Hierarchical Capability Trees**
-Zhiyuan Zeng, Yizhong Wang, Hannaneh Hajishirzi, Pang Wei Koh
-*COLM 2025*
+This repository contains the analysis and findings for **DOVE-based weakness profiling** of language models, with a focus on **false positive mitigation** in traditional accuracy evaluation.
 
-## 🔗 Resources
-- 📄 **[Paper](https://arxiv.org/abs/2503.08893)**
-- 💾 **[Code & Data](https://github.com/Zhiyuan-Zeng/EvalTree)**
-- 🌐 **[Web Interface (Interactive Demo of Capability Trees)](https://zhiyuan-zeng.github.io/EvalTree)**
+---
 
-If you find our work useful, please consider citing:
+## 📁 **Repository Structure**
 
-```bibtex
-@inproceedings{zeng2025evaltree,
-  title={EvalTree: Profiling Language Model Weaknesses via Hierarchical Capability Trees},
-  author={Zeng, Zhiyuan and Wang, Yizhong and Hajishirzi, Hannaneh and Koh, Pang Wei},
-  booktitle={Conference on Language Modeling (COLM)},
-  year={2025}
-}
+```
+EvalAgain/
+├── README.md                    # This file
+├── requirements.txt             # Python dependencies
+├── research_paper.md           # Draft research paper
+├── summaryCursor.md            # Complete analysis summary
+├── 
+├── analysis/                   # Core analysis scripts
+│   ├── complete_false_positive_analysis.py      # Main analysis
+│   ├── false_positive_mitigation_analysis.py    # FP mitigation
+│   ├── robustness_correlation_analysis.py       # Correlation study
+│   ├── generate_paper_figures.py                # Paper figures
+│   ├── hierarchical_dove_profiler.py            # Hierarchical analysis
+│   ├── mmlu_category_analysis.py                # MMLU categories
+│   └── weakness_intersection_analysis.py        # Intersection study
+├── 
+├── data/                       # Core datasets
+│   ├── MMLU.json              # MMLU EvalTree structure
+│   ├── MMLU_DOVE.json         # DOVE robustness scores
+│   └── stage1_output_example.json  # Example output
+├── 
+├── figures/                    # Key visualizations
+│   ├── complete_confusion_matrix.pdf/.png       # False positive analysis
+│   ├── error_comparison.pdf/.png                # Error type comparison
+│   ├── quadrant_analysis.pdf/.png               # Capability classification
+│   └── false_positive_detailed.pdf/.png         # Detailed FP analysis
+├── 
+├── docs/                       # Documentation
+│   ├── dove_hierarchical_analysis_summary.md    # Key findings
+│   └── weakness_intersection_summary.md         # Intersection analysis
+├── 
+└── utils/                      # Utility functions
+    ├── api_inference.py        # API utilities
+    ├── common.py              # Common functions
+    └── compute_elo.py         # ELO computation
 ```
 
-## Bug Reports & Questions
+---
 
-If you have any questions about the code or the paper, feel free to contact [Zhiyuan Zeng](https://zhiyuan-zeng.github.io/) (`zhiyuan1zeng@gmail.com` or `zyzeng@cs.washington.edu`).
+## 🔍 **Key Research Findings**
 
-If you encounter any issues while using the code or want to report a bug, please open an issue. When reporting a problem, provide detailed information so we can assist you more effectively.
+### **1. False Positive Mitigation Analysis**
 
-## Setup
+**Main Result**: DOVE provides comprehensive false positive mitigation by correcting both over-penalization (5.3%) and under-penalization (21.1%) errors in traditional accuracy evaluation.
 
-### Installation and Configuration
+- **False Positives**: 3 capabilities (5.3%) - Traditional over-penalizes robust areas
+- **False Negatives**: 12 capabilities (21.1%) - Traditional misses vulnerable areas  
+- **Key Insight**: Traditional accuracy is 4x more likely to miss vulnerabilities than create false alarms
 
-Install the required dependencies.
+### **2. Hierarchical Weakness Profiling**
+
+Successfully mapped 5,670 DOVE robustness scores to MMLU's hierarchical capability structure:
+
+- **Critical Weaknesses** (< 0.30): 1,432 capabilities (26.1%)
+- **High Weaknesses** (0.30-0.49): 829 capabilities (15.1%)
+- **Moderate Weaknesses** (0.50-0.69): 711 capabilities (12.9%)
+- **Strong Areas** (≥ 0.70): 2,520 capabilities (45.9%)
+
+### **3. Robustness-Accuracy Correlation**
+
+Moderate positive correlation (r = 0.396) between individual question robustness and category proficiency, with significant performance disparities across academic categories.
+
+---
+
+## 🚀 **Quick Start**
+
+### **Prerequisites**
 ```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-Set up your keys and ensure that your OpenAI and Hugging Face credentials are correctly configured before running the code.
+### **Run Core Analysis**
 ```bash
-export OPENAI_API_KEY="your_openai_api_key"
-export HF_TOKEN="your_huggingface_access_token"
+# Complete false positive/negative analysis
+python analysis/complete_false_positive_analysis.py
+
+# False positive mitigation analysis
+python analysis/false_positive_mitigation_analysis.py
+
+# Robustness correlation analysis  
+python analysis/robustness_correlation_analysis.py
+
+# Generate paper figures
+python analysis/generate_paper_figures.py
 ```
 
-### Model Evaluation Results
+### **View Results**
+- **Figures**: Check `figures/` directory for PDF/PNG visualizations
+- **Analysis Summary**: Read `summaryCursor.md` for complete findings
+- **Research Paper**: See `research_paper.md` for draft paper
 
-A model's evaluation result on a benchmark is stored in
-`Datasets/BENCHMARK/eval_results/real/MODEL/results.json`.
-This is the **performance metric vector**, as all weakness profiling methods operate on performance metrics rather than original generation results.
+---
 
-For **instruction-following benchmarks**, `MODEL` takes the form `[MODEL1]BEAT[MODEL2]`, indicating it is the preference label vector determined by LM-as-a-judge comparing `MODEL1` and `MODEL2`. In this case, `1` means `MODEL1` is preferred, and `2` means `MODEL2` is preferred.
-Each instance has two preference labels to account for both the original order and the swapped response order in pairwise comparisons.
+## 📊 **Generated Visualizations**
 
-## Preparation of EvalTree and QualEval
+1. **Complete Confusion Matrix** - Shows all four classification categories (TP/TN/FP/FN)
+2. **Error Comparison** - Compares false positive vs false negative rates
+3. **Quadrant Analysis** - Visualizes capabilities in accuracy-robustness space
+4. **False Positive Detailed** - Detailed analysis of over-penalized capabilities
 
-### EvalTree
+---
 
-Using **EvalTree**, we first run the automatic four-stage tree construction pipeline on each benchmark.
+## 🎯 **Research Contributions**
 
-#### Step 1: Capability Annotation
-We first run the **Capability Annotation** stage. Precomputed results are available in `Datasets/BENCHMARK/EvalTree/stage1-CapabilityAnnotation/[annotation=gpt-4o-mini].json`.
-```bash
-bash EvalTree/stage1-CapabilityAnnotation/annotate.sh
-# Precomputed results are already available.
+### **Methodological Innovations**
+- **Comprehensive Error Analysis**: Examines both false positives and false negatives
+- **Hierarchical Integration**: Maps DOVE scores to EvalTree capability structure
+- **Continuous Score Assessment**: Captures partial understanding missed by binary evaluation
+
+### **Practical Implications**
+- **Enhanced Weakness Detection**: Reveals vulnerabilities missed by traditional accuracy
+- **Reduced False Alarms**: Prevents over-penalization of robust capabilities
+- **Targeted Improvement**: Identifies specific areas needing attention
+
+---
+
+## 📝 **Citation**
+
+```bibtex
+@article{dove_weakness_profiling_2024,
+  title={DOVE-Based Weakness Profiling: False Positive Mitigation in Language Model Evaluation},
+  author={[Your Name]},
+  year={2024},
+  note={In preparation}
+}
 ```
 
-#### Step 2: Capability Embedding
-We then run the **Capability Embedding** stage. Outputs are stored in `Datasets/BENCHMARK/EvalTree/stage2-CapabilityEmbedding/[annotation=gpt-4o-mini]_[embedding=text-embedding-3-small].bin`.
-```bash
-bash EvalTree/stage2-CapabilityEmbedding/embedding.sh
-```
+---
 
-#### Step 3: Recursive Clustering-Based Construction
-Next, we run the **Recursive Clustering-Based Construction** stage. Outputs are stored in `Datasets/BENCHMARK/EvalTree/stage3-RecursiveClustering/[split=SPLIT]_[annotation=gpt-4o-mini]_[embedding=text-embedding-3-small]_[max-children=10].bin`.
-```bash
-bash EvalTree/stage3-RecursiveClustering/build.sh
-```
+## 📞 **Contact**
 
-#### Step 4: Capability Description
-Finally, we run the **Capability Description** stage. Precomputed results are available in `Datasets/BENCHMARK/EvalTree/stage3-RecursiveClustering/[split=SPLIT]_[annotation=gpt-4o-mini]_[embedding=text-embedding-3-small]_[max-children=10]_[stage4-CapabilityDescription-model=gpt-4o-mini].json`.
-```bash
-bash EvalTree/stage4-CapabilityDescription/describe.sh
-# Precomputed results are already available.
-```
+For questions about this research or collaboration opportunities, please open an issue or contact the author.
 
-#### Confidence Interval Computation
-In our experiments, we do not explicitly construct capability trees (i.e., the tree structure with a model’s performance computed at each node).
-Instead, we directly compute the **confidence interval of the binomial test** for each model's evaluation result.
-This allows us to efficiently generate weakness profiles at varying threshold $\tau$.
-Precomputed results are available in `Datasets/BENCHMARK/eval_results/real/MODEL/EvalTree/TREE=[stage3-RecursiveClustering]_[split=SPLIT]_[annotation=gpt-4o-mini]_[embedding=text-embedding-3-small]_[max-children=10]/confidence_interval.json`.
-```bash
-bash EvalTree/WeaknessProfile/confidence_interval.sh
-# Precomputed results are already available.
-```
+---
 
-### QualEval
-
-We run the following commands to obtain the one-level capability categorization structure of [QualEval](https://arxiv.org/abs/2311.02807) for each benchmark.
-```bash
-bash Baselines/QualEval/stage1-CapabilityDiscovery/discover.sh
-# Precomputed results are already available.
-
-bash Baselines/QualEval/stage2-CapabilityAssignment/assign.sh
-# Precomputed results are already available.
-```
-
-## Assessments for Weakness Profiling Methods
-
-### Low-Performance Identification Assessment
-
-We first run all weakness profiling methods on all evaluation results.
-As described in the paper, for each method, we tune its $\tau$ to generate all possible weakness profiles $\{W_{\tau_1}, W_{\tau_2}, \dots\}$.
-```bash
-bash Assessments/LowPerformance/run.sh
-# Precomputed results are already available.
-```
-
-We then assess all methods using Low-Performance Identification Assessment.
-The assessment results are stored in `Assessments/LowPerformance/results/BENCHMARK/real/MODEL`.
-`size2val1` and `num2val2` correspond to the results of $\min\{\sum_{w_i \in W_{\tau}} F(A(w_i)) / |W_{\tau}| \mid \forall {\tau}, |W_{\tau}| \geq M'\}$ and $\min\{F(S_{\tau}) \mid \forall {\tau}, |S_{\tau}| \geq N'\}$ in the paper, respectively.
-```bash
-bash Assessments/LowPerformance/assess.sh
-# Precomputed results are already available.
-```
-
-Finally, we generate the result figure.
-```bash
-python -m Assessments.LowPerformance.results.figure
-# The figure is already available.
-```
-
-### Ground-Truth Weakness Assessment
-
-As preparation for Ground-Truth Weakness Assessment, we manually curated 10 ground-truth weaknesses at various granularities for MATH and WildChat10K, respectively.
-The ground-truth weakness profile is stored in `Datasets/{MATH, WildChat10K}/eval_results/synthetic/ground-truth.json`.
-
-For each benchmark, we first generate three synthetic evaluation results using the hyperparameters $p=0.7$ and $d \in \{0.2, 0.4, 0.5\}$.
-```bash
-bash Assessments/Synthetic/generate_synthetic-result.sh
-# Precomputed results are already available.
-```
-
-We then run all weakness profiling methods on all synthetic evaluation results.
-```bash
-bash Assessments/Synthetic/run.sh
-# Precomputed results are already available.
-```
-
-Finally, we assess all methods using Ground-Truth Weakness Assessment.
-The assessment results are stored in `Assessments/Synthetic/results/{MATH, WildChat10K}/[base=0.7]_[drate={0.2, 0.4, 0.5}]_[seed=0]`.
-```bash
-bash Assessments/Synthetic/assess.sh
-# Precomputed results are already available.
-```
-
-Finally, we generate the result figure.
-```bash
-python -m Assessments.Synthetic.results.figure --metrics F1
-python -m Assessments.Synthetic.results.figure --metrics Precision
-python -m Assessments.Synthetic.results.figure --metrics Recall
-# The figures are already available.
-```
-
-### Extrinsic Assessment: Weakness-Guided Training Data Collection
-
-We first generate weakness profiles using all weakness profiling methods.
-```bash
-bash Assessments/Extrinsic/data/profile-generation.sh
-# Precomputed results are already available.
-```
-
-We then generate synthetic data inputs.
-For each synthetic data collection strategy, we construct a pool of synthetic data inputs.
-When experimenting with different seeds, we sample from this pool to simulate re-running synthetic data generation with a new seed.
-```bash
-bash Assessments/Extrinsic/data/generate_input.sh
-# Precomputed results are already available.
-```
-
-We generate outputs for each input across all data collection strategies.
-```bash
-bash Assessments/Extrinsic/data/generate_output.sh
-# Precomputed results are already available.
-```
-
-Next, we construct training sets for each data collection strategy using five different seeds.
-```bash
-bash Assessments/Extrinsic/data/generate_data/generate_data.sh
-# Precomputed results are already available.
-```
-
-We then finetune the initial LM (Llama 3.1 8B Instruct for MATH and DeepSeek-Coder-Base 6.7B for DS-1000) on each training set.
-Training outputs are stored in `../{MATH, DS-1000}_checkpoints/STRATEGY_[seed=SEED]_[epoch=EPOCH]`.
-```bash
-bash Assessments/Extrinsic/training/train.sh
-```
-
-Precomputed generation results and evaluation results are available in `Assessments/Extrinsic/results/{MATH, DS-1000}`.
-Using the evaluation results, we generate the result figure.
-```bash
-python -m Assessments.Extrinsic.results.figure
-# The figure is already available.
-```
-
-## Analysis on Threshold $\tau$ for Node Extraction
-
-As described in the paper, we locate the position of each instance in the test set on the capability tree by first computing its capability embedding and then traversing from the root guided by it.
-We precompute each test set instance's traversal trajectory on the capability tree.
-```bash
-bash EvalTree/WeaknessProfile/ExtractedNode_Analysis/locate.sh
-# Precomputed results are already available.
-```
-
-We then compute the performance on weakness/strength instances as the threshold varies.
-Precomputed results are available in `EvalTree/WeaknessProfile/ExtractedNode_Analysis/results/BENCHMARK1->BENCHMARK2`.
-```bash
-bash EvalTree/WeaknessProfile/ExtractedNode_Analysis/analysis_varying-threshold.sh
-# Precomputed results are already available.
-```
-
-Finally, we generate the result figure.
-```bash
-bash EvalTree/WeaknessProfile/ExtractedNode_Analysis/results/figure.sh
-python -m EvalTree.WeaknessProfile.ExtractedNode_Analysis.results.figure_instruction-following
-# The figures are already available.
-```
-
-## User Interface of Capability Trees
-
-The `demo` branch contains code to help you build an interface for exploring capability trees interactively.
-You can see a **[demo](https://zhiyuan-zeng.github.io/EvalTree)** of the interface.
-
-Once you have constructed the tree for a benchmark (following the steps above) and added your own model evaluation results, proceed with the following steps:
-
-1. **Generate Capability Distinctions**:  
-   Run `EvalTree/EvalTree/stage5-CapabilityDistinguishing` to generate a **natural language distinction** for each (non-root) node. It differentiates each node from its siblings, giving a more concise and user-friendly description of its capability.
-
-2. **Prepare Data for the Interface**:  
-   Execute `EvalTree/build_data.py` to generate the necessary data files for the interface.
-
-3. **Customize Metadata**:  
-   Modify `meta.json` to include your **benchmark and model information**.
-
-# EvalTreeExtesnion
+**Last Updated**: December 2024

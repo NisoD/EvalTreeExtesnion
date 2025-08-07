@@ -1,0 +1,37 @@
+{
+  "hypothesis": "Low robustness \u2192 FAIL, High robustness \u2192 SUCCEED",
+  "test_results": {
+    "low_rob_capabilities": [
+      {
+        "capability": "Analyzing and evaluating logical and mathematical principles for consistency and application across various domains",
+        "avg_dove": 0.24220833333333333,
+        "avg_accuracy": 0.20833333333333334,
+        "generated_questions": [
+          {
+            "question": "Q: Consider the statements regarding the properties of functions and their inverses. Statement 1 | If a function f is bijective, then its inverse f^(-1) is also continuous. Statement 2 | A continuous function on a closed interval is guaranteed to be uniformly continuous if it is also uniformly bounded.  \nA. True, True  \nB. True, False  \nC. False, True  \nD. False, False",
+            "evaluation": {
+              "question": "Q: Consider the statements regarding the properties of functions and their inverses. Statement 1 | If a function f is bijective, then its inverse f^(-1) is also continuous. Statement 2 | A continuous function on a closed interval is guaranteed to be uniformly continuous if it is also uniformly bounded.  \nA. True, True  \nB. True, False  \nC. False, True  \nD. False, False",
+              "answer": "B",
+              "success": true
+            }
+          }
+        ]
+      },
+      {
+        "capability": "Analyzing and manipulating polynomial expressions and structures in algebraic contexts",
+        "avg_dove": 0.3207857142857143,
+        "avg_accuracy": 0.3333333333333333,
+        "generated_questions": [
+          {
+            "question": "Q: Consider the polynomial \\( p(x) = 2x^4 - 3x^3 + 5x^2 - 7x + 6 \\). Which of the following statements is true regarding the irreducibility of \\( p(x) \\) over the field of rational numbers \\( \\mathbb{Q} \\)?\n\nA. \\( p(x) \\) is irreducible over \\( \\mathbb{Q} \\) by the Rational Root Theorem.\n\nB. \\( p(x) \\) can be factored into the product of two quadratic polynomials over \\( \\mathbb{Q} \\).\n\nC. \\( p(x) \\) is reducible over \\( \\mathbb{Q} \\)",
+            "evaluation": {
+              "question": "Q: Consider the polynomial \\( p(x) = 2x^4 - 3x^3 + 5x^2 - 7x + 6 \\). Which of the following statements is true regarding the irreducibility of \\( p(x) \\) over the field of rational numbers \\( \\mathbb{Q} \\)?\n\nA. \\( p(x) \\) is irreducible over \\( \\mathbb{Q} \\) by the Rational Root Theorem.\n\nB. \\( p(x) \\) can be factored into the product of two quadratic polynomials over \\( \\mathbb{Q} \\).\n\nC. \\( p(x) \\) is reducible over \\( \\mathbb{Q} \\)",
+              "answer": "C",
+              "success": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

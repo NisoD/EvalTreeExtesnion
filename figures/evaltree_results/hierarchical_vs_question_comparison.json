@@ -1,0 +1,67 @@
+{
+  "question_level_analysis": {
+    "total_questions": 5670,
+    "mean_robustness": 0.5771280864197531,
+    "median_robustness": 0.6285000000000001,
+    "std_robustness": 0.3218061977423748,
+    "min_robustness": 0.0,
+    "max_robustness": 0.999,
+    "quartiles": [
+      0.278,
+      0.6285000000000001,
+      0.8905000000000001
+    ],
+    "weak_questions": 2367,
+    "weak_percentage": 41.74603174603175,
+    "critical_questions": 1512,
+    "critical_percentage": 26.666666666666668
+  },
+  "hierarchical_analysis": {
+    "total_subjects": 57,
+    "mean_subject_robustness": 0.5770328545919632,
+    "median_subject_robustness": 0.62149,
+    "std_subject_robustness": 0.14915263577291785,
+    "min_subject_robustness": 0.28982,
+    "max_subject_robustness": 0.84581,
+    "quartiles": [
+      0.431195,
+      0.62149,
+      0.6796150000000001
+    ],
+    "weak_subjects": 18,
+    "weak_subject_percentage": 31.57894736842105,
+    "critical_subjects": 2,
+    "critical_subject_percentage": 3.508771929824561
+  },
+  "clustering_analysis": {
+    "mathematical_subjects": {
+      "count": 8,
+      "mean_robustness": 0.3542732373595506,
+      "median_robustness": 0.3066879494382022,
+      "std_robustness": 0.08096857279310389
+    },
+    "non_mathematical_subjects": {
+      "count": 49,
+      "mean_robustness": 0.6134017716911326,
+      "median_robustness": 0.64318,
+      "std_robustness": 0.12400656375553162
+    },
+    "domain_difference": {
+      "robustness_gap": 0.25912853433158206,
+      "percentage_gap": 42.24450373157082,
+      "significance": "Mathematical subjects show systematically lower robustness"
+    }
+  },
+  "actionability_comparison": {
+    "question_level": {
+      "scattered_weak_questions": 2367,
+      "subjects_with_weak_questions": 57,
+      "insight": "Individual questions are weak, but no systematic pattern"
+    },
+    "hierarchical_level": {
+      "systematic_weak_subjects": 18,
+      "mathematical_concentration": 7,
+      "insight": "Clear systematic pattern: mathematical subjects cluster at low robustness"
+    }
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "0.3": {
+    "weak_count": 2,
+    "weak_percentage": 3.508771929824561,
+    "weak_subjects": [
+      {
+        "subject": "college_mathematics",
+        "robustness": 0.28982,
+        "question_count": 100
+      },
+      {
+        "subject": "abstract_algebra",
+        "robustness": 0.29105,
+        "question_count": 100
+      }
+    ]
+  },
+  "0.4": {
+    "weak_count": 8,
+    "weak_percentage": 14.035087719298245,
+    "weak_subjects": [
+      {
+        "subject": "college_mathematics",
+        "robustness": 0.28982,
+        "question_count": 100
+      },
+      {
+        "subject": "abstract_algebra",
+        "robustness": 0.29105,
+        "question_count": 100
+      },
+      {
+        "subject": "high_school_physics",
+        "robustness": 0.30143,
+        "question_count": 100
+      },
+      {
+        "subject": "high_school_mathematics",
+        "robustness": 0.304095,
+        "question_count": 100
+      },
+      {
+        "subject": "college_physics",
+        "robustness": 0.3092808988764045,
+        "question_count": 89
+      },
+      {
+        "subject": "moral_scenarios",
+        "robustness": 0.336,
+        "question_count": 100
+      },
+      {
+        "subject": "global_facts",
+        "robustness": 0.38073,
+        "question_count": 100
+      },
+      {
+        "subject": "formal_logic",
+        "robustness": 0.393575,
+        "question_count": 100
+      }
+    ]
+  },
+  "0.5": {
+    "weak_count": 18,
+    "weak_percentage": 31.57894736842105,
+    "weak_subjects": [
+      {
+        "subject": "college_mathematics",
+        "robustness": 0.28982,
+        "question_count": 100
+      },
+      {
+        "subject": "abstract_algebra",
+        "robustness": 0.29105,
+        "question_count": 100
+      },
+      {
+        "subject": "high_school_physics",
+        "robustness": 0.30143,
+        "question_count": 100
+      },
+      {
+        "subject": "high_school_mathematics",
+        "robustness": 0.304095,
+        "question_count": 100
+      },
+      {
+        "subject": "college_physics",
+        "robustness": 0.3092808988764045,
+        "question_count": 89
+      },
+      {
+        "subject": "moral_scenarios",
+        "robustness": 0.336,
+        "question_count": 100
+      },
+      {
+        "subject": "global_facts",
+        "robustness": 0.38073,
+        "question_count": 100
+      },
+      {
+        "subject": "formal_logic",
+        "robustness": 0.393575,
+        "question_count": 100
+      },
+      {
+        "subject": "high_school_statistics",
+        "robustness": 0.41313,
+        "question_count": 100
+      },
+      {
+        "subject": "machine_learning",
+        "robustness": 0.418245,
+        "question_count": 100
+      }
+    ]
+  },
+  "0.6": {
+    "weak_count": 25,
+    "weak_percentage": 43.859649122807014,
+    "weak_subjects": [
+      {
+        "subject": "college_mathematics",
+        "robustness": 0.28982,
+        "question_count": 100
+      },
+      {
+        "subject": "abstract_algebra",
+        "robustness": 0.29105,
+        "question_count": 100
+      },
+      {
+        "subject": "high_school_physics",
+        "robustness": 0.30143,
+        "question_count": 100
+      },
+      {
+        "subject": "high_school_mathematics",
+        "robustness": 0.304095,
+        "question_count": 100
+      },
+      {
+        "subject": "college_physics",
+        "robustness": 0.3092808988764045,
+        "question_count": 89
+      },
+      {
+        "subject": "moral_scenarios",
+        "robustness": 0.336,
+        "question_count": 100
+      },
+      {
+        "subject": "global_facts",
+        "robustness": 0.38073,
+        "question_count": 100
+      },
+      {
+        "subject": "formal_logic",
+        "robustness": 0.393575,
+        "question_count": 100
+      },
+      {
+        "subject": "high_school_statistics",
+        "robustness": 0.41313,
+        "question_count": 100
+      },
+      {
+        "subject": "machine_learning",
+        "robustness": 0.418245,
+        "question_count": 100
+      }
+    ]
+  },
+  "0.7": {
+    "weak_count": 45,
+    "weak_percentage": 78.94736842105263,
+    "weak_subjects": [
+      {
+        "subject": "college_mathematics",
+        "robustness": 0.28982,
+        "question_count": 100
+      },
+      {
+        "subject": "abstract_algebra",
+        "robustness": 0.29105,
+        "question_count": 100
+      },
+      {
+        "subject": "high_school_physics",
+        "robustness": 0.30143,
+        "question_count": 100
+      },
+      {
+        "subject": "high_school_mathematics",
+        "robustness": 0.304095,
+        "question_count": 100
+      },
+      {
+        "subject": "college_physics",
+        "robustness": 0.3092808988764045,
+        "question_count": 89
+      },
+      {
+        "subject": "moral_scenarios",
+        "robustness": 0.336,
+        "question_count": 100
+      },
+      {
+        "subject": "global_facts",
+        "robustness": 0.38073,
+        "question_count": 100
+      },
+      {
+        "subject": "formal_logic",
+        "robustness": 0.393575,
+        "question_count": 100
+      },
+      {
+        "subject": "high_school_statistics",
+        "robustness": 0.41313,
+        "question_count": 100
+      },
+      {
+        "subject": "machine_learning",
+        "robustness": 0.418245,
+        "question_count": 100
+      }
+    ]
+  }
+}

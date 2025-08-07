@@ -1,0 +1,55 @@
+{
+  "hypothesis": "Low robustness \u2192 FAIL, High robustness \u2192 SUCCEED",
+  "test_results": {
+    "low_rob_capabilities": [
+      {
+        "capability": "Analyzing and evaluating logical and mathematical principles for consistency and application across various domains",
+        "avg_dove": 0.21588235294117647,
+        "avg_accuracy": 0.0,
+        "generated_questions": [
+          {
+            "question": "Q: Statement 1 | The set of all continuous functions on a closed interval [a, b] forms a vector space over the field of real numbers. Statement 2 | The set of all differentiable functions on the same interval [a, b] also forms a vector space over the field of real numbers.\n\nA. True, True  \nB. True, False  \nC. False, True  \nD. False, False",
+            "evaluation": {
+              "question": "Q: Statement 1 | The set of all continuous functions on a closed interval [a, b] forms a vector space over the field of real numbers. Statement 2 | The set of all differentiable functions on the same interval [a, b] also forms a vector space over the field of real numbers.\n\nA. True, True  \nB. True, False  \nC. False, True  \nD. False, False",
+              "answer": "B",
+              "success": true
+            }
+          },
+          {
+            "question": "Q: Let A be a set of real numbers, and let B be the set of all finite subsets of A. Statement 1: The cardinality of B is equal to the cardinality of A. Statement 2: The union of all elements of B is equal to A.  \nA. True, True  \nB. True, False  \nC. False, True  \nD. False, False",
+            "evaluation": {
+              "question": "Q: Let A be a set of real numbers, and let B be the set of all finite subsets of A. Statement 1: The cardinality of B is equal to the cardinality of A. Statement 2: The union of all elements of B is equal to A.  \nA. True, True  \nB. True, False  \nC. False, True  \nD. False, False",
+              "answer": "B",
+              "success": true
+            }
+          }
+        ]
+      }
+    ],
+    "high_rob_capabilities": [
+      {
+        "capability": "Analyzing and evaluating logical and mathematical principles for consistency and application across various domains",
+        "avg_dove": 0.546,
+        "avg_accuracy": 0.0,
+        "generated_questions": [
+          {
+            "question": "Q: Consider the following statements regarding the properties of continuous functions on compact intervals. Statement 1: Every continuous function defined on a compact interval is uniformly continuous. Statement 2: There exists a continuous function on a compact interval that is not bounded.  \nA. True, True  \nB. True, False  \nC. False, True  \nD. False, False",
+            "evaluation": {
+              "question": "Q: Consider the following statements regarding the properties of continuous functions on compact intervals. Statement 1: Every continuous function defined on a compact interval is uniformly continuous. Statement 2: There exists a continuous function on a compact interval that is not bounded.  \nA. True, True  \nB. True, False  \nC. False, True  \nD. False, False",
+              "answer": "B",
+              "success": true
+            }
+          },
+          {
+            "question": "Q: Consider the following statements regarding the properties of convex sets in Euclidean space. Statement 1 | The intersection of any two convex sets is convex. Statement 2 | A non-empty subset of a convex set is always convex. Which of the following is true?  \nA. True, True  \nB. True, False  \nC. False, True  \nD. False, False",
+            "evaluation": {
+              "question": "Q: Consider the following statements regarding the properties of convex sets in Euclidean space. Statement 1 | The intersection of any two convex sets is convex. Statement 2 | A non-empty subset of a convex set is always convex. Which of the following is true?  \nA. True, True  \nB. True, False  \nC. False, True  \nD. False, False",
+              "answer": "A",
+              "success": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

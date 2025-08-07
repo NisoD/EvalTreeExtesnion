@@ -1,0 +1,5 @@
+{
+  "hypothesis": "Low Accuracy + Low Robustness \u2192 FAIL, Low Accuracy + High Robustness \u2192 SUCCEED",
+  "patterns_tested": {},
+  "overall_results": {}
+}
